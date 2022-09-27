@@ -1,0 +1,55 @@
+html {
+}
+
+body {
+  height: 300px;
+  width: 100%;
+  background-color: #77bbab;
+  margin: auto;
+}
+
+#flex-container {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+}
+
+#navbar {
+  height: 50px;
+  background-color: #282A35;
+  justify-content: center;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  float: left;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  padding: 15px 15px 15px 15px;
+  color: #ffffff;
+}
+
+#nav-main a:hover {
+  background-color: #373636;
+}
+
+#nav-login a:hover {
+  background-color: #373636;
+}
+
+a:hover {
+
+}

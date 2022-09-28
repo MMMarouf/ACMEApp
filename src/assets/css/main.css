@@ -8,15 +8,25 @@ body {
   margin: auto;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
 #flex-container {
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
   display: flex;
 }
 
 #content {
   display: flex;
   justify-content: center;
+  max-width: 60%;
+  margin: auto;
+  margin-top: 10px;
+  border: 1px solid #373736;
+  border-radius: 5px;
 }
 
 #navbar {
@@ -43,7 +53,7 @@ a {
 }
 
 #nav-main a:hover {
-  background-color: #373636;
+  background-color: #373736;
 }
 
 #nav-login a:hover {
